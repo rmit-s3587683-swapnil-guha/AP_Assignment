@@ -9,6 +9,8 @@ import java.util.Arrays;
  *and then further got inherited by Cycling, Running and Smimming classes
  */
 
+
+
 public abstract class Game  implements Official, Athletes {
 	
 	int min = 0;
@@ -21,6 +23,8 @@ public abstract class Game  implements Official, Athletes {
 	int referee = 0;
 	int j=0; 
 	int rIndex;
+
+	public abstract int test();
 	
 	/**
 	 *gmaeToPlay() is an abstract method 
