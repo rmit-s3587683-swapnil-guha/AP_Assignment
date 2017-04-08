@@ -23,8 +23,6 @@ public abstract class Game  implements Official, Athletes {
 	int referee = 0;
 	int j=0; 
 	int rIndex;
-
-	public abstract int test();
 	
 	/**
 	 *gmaeToPlay() is an abstract method 
