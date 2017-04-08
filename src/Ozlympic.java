@@ -15,7 +15,6 @@ public class Ozlympic {
 	 * menu() method is used to print menu and capture user choice
 	 * according to menu displayed
 	 */
-<<<<<<< HEAD
 	public void menu() {
 		int userin;
 		try {
@@ -47,10 +46,7 @@ public class Ozlympic {
 			System.out.println("Error");
 		}
 	}
-=======
->>>>>>> branch 'master' of https://github.com/rmit-s3587683-swapnil-guha/AP_Assignment
 
-<<<<<<< HEAD
 	/**
 	 * gameToRun() method is used to play respective game on the basis
 	 * of user selection 
@@ -82,13 +78,7 @@ public class Ozlympic {
 			System.out.println("Invalid Option");
 			break;
 		}
-=======
-	public static Database makeGame(){
-		Database dataCollection = new Database();		
-		return dataCollection;
->>>>>>> branch 'master' of https://github.com/rmit-s3587683-swapnil-guha/AP_Assignment
 	}
-<<<<<<< HEAD
 
 	/**
 	 * userSelection() method is used to implement user selection on the basis
@@ -139,6 +129,4 @@ public class Ozlympic {
 		Ozlympic run = new Ozlympic();
 		run.menu();
 	}
-=======
->>>>>>> branch 'master' of https://github.com/rmit-s3587683-swapnil-guha/AP_Assignment
 }
